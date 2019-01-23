@@ -1,5 +1,5 @@
 {
-  "name": "awake",
+  "name": "solairo",
   "private": true,
   "scripts": {
     "start": "nf start"
