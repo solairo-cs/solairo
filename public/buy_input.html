@@ -16,19 +16,27 @@ ga('send', 'pageview');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href=https://stitches.hyperyolo.com/public/stitches.css rel="stylesheet">
+    <link href=https://stitches.hyperyolo.com/output.css rel="stylesheet">
     <link href=https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900 rel="stylesheet">
     <link rel="stylesheet" href=https://use.fontawesome.com/releases/v5.6.3/css/all.css integrity=sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/ crossorigin="anonymous">
     <title>Solairo-CS-Tests</title>
   </head>
   <body>
-    <script>
-      !function(e,t,o,n){var s=function(e,t){s.q.push([e,t])};e.SolairoCo=s,s.q=[],o=t.createElement("script"),o.async=1,o.src="https://solairo-co.ok-sky.com/widget/widget.js",n=t.getElementsByTagName("script")[0],n.parentNode.insertBefore(o,n)}(window,document);
-SolairoCo("key", "solairo-co-1EE5C2A75F4DA14E");
-// SolairoCo("loginKey", "customer_code,name");
-// SolairoCo("customer_code", "12345");
-// SolairoCo("name", "田中");
-    </script>
+    <script src="https://cdn.ok-sky.com/sdk/v7.66/widget.js" type="text/javascript"></script>
+<script>
+window.onload = function() {
+var chatWidget = new OkskyChat("solairo-co-1EE5C2A75F4DA14E", "https://solairo-co.ok-sky.com/", {});
+chatWidget.show();
+}
+</script>
+
+<!-- <script type="text/javascript" src="https://cdn.ok-sky.com/sdk/v7.66/tracker.js"></script> -->
+<script>
+// let tracker = new oktag("https://solairo-co.ok-sky.com/");
+// tracker.send({command: "pageview"});
+// tracker.send({command: "event", action: "buy", category: "mens", label: "pants", value: 42});
+</script>
+
     
     <nav class="font-sans bg-white text-center flex justify-between my-4 mx-auto container overflow-hidden">
   <a href="/" class="block text-left">
